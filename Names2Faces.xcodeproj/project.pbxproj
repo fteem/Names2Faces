@@ -12,6 +12,8 @@
 		88316E981E300AC4009C0034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88316E961E300AC4009C0034 /* Main.storyboard */; };
 		88316E9A1E300AC4009C0034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88316E991E300AC4009C0034 /* Assets.xcassets */; };
 		88316E9D1E300AC4009C0034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88316E9B1E300AC4009C0034 /* LaunchScreen.storyboard */; };
+		88316EA51E300D1A009C0034 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88316EA41E300D1A009C0034 /* PersonCell.swift */; };
+		88316EA71E3023EB009C0034 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88316EA61E3023EB009C0034 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		88316E991E300AC4009C0034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88316E9C1E300AC4009C0034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88316E9E1E300AC4009C0034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88316EA41E300D1A009C0034 /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		88316EA61E3023EB009C0034 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				88316E921E300AC4009C0034 /* AppDelegate.swift */,
 				88316E941E300AC4009C0034 /* ViewController.swift */,
+				88316EA61E3023EB009C0034 /* Person.swift */,
 				88316E961E300AC4009C0034 /* Main.storyboard */,
+				88316EA41E300D1A009C0034 /* PersonCell.swift */,
 				88316E991E300AC4009C0034 /* Assets.xcassets */,
 				88316E9B1E300AC4009C0034 /* LaunchScreen.storyboard */,
 				88316E9E1E300AC4009C0034 /* Info.plist */,
@@ -91,7 +97,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Ilija Eftimov";
 				TargetAttributes = {
 					88316E8E1E300AC4009C0034 = {
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88316EA51E300D1A009C0034 /* PersonCell.swift in Sources */,
 				88316E951E300AC4009C0034 /* ViewController.swift in Sources */,
+				88316EA71E3023EB009C0034 /* Person.swift in Sources */,
 				88316E931E300AC4009C0034 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +190,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -231,6 +240,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -300,6 +310,7 @@
 				88316EA31E300AC4009C0034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
